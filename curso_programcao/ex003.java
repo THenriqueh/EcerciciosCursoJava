@@ -1,8 +1,11 @@
+package curso_programcao;
+
 /*
 Write a program to read four integer values ​​A, B, C and D. Then calculate and show the difference of the product
 of A and B by the product of C and D according to the formula: DIFFERENCE = (A * B - C * D).
 */
 import java.util.Scanner;
+
 public class ex003 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

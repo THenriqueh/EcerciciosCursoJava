@@ -1,8 +1,10 @@
+package curso_programcao;
+
 import java.util.Scanner;
 
 public class exExemplo {
-public static void main(String[] args) {
-	Scanner sc = new Scanner(System.in);
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		System.out.print("Digite a largura do Terreno: ");
 		double largura = sc.nextDouble();
 		System.out.print("Digite o compriemnto do Terreno: ");
@@ -17,4 +19,3 @@ public static void main(String[] args) {
 		sc.close();
 	}
 }
-
